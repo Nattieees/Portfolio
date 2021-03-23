@@ -1,27 +1,33 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #767b74;
   }
   /* Header Styles */
   .header {
-    background-image: url(../images/upsBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 500px;
-    height: 250px;
+    max-height: 300px;
+    height: 100px;
     background-position: bottom;
   }
   #pageTopic {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     font-weight: 900;
   }
+
+  #pageSub {
+    text-align: left;
+    margin-bottom: 80px;
+  }
+
   /* Primary Color */
   .colorContainer {
     display: inline-block;
     margin: 15px;
   }
   .swatch {
-     height: 200px;
+     height: 170px;
      width: 170px;
      border: 1px solid black;
   }
@@ -33,34 +39,39 @@ body {
      border-bottom-left-radius: 7px;
      border-bottom-right-radius: 7px;
   }
-  .darkBlue {
-    background-color: #333366;
+  .Rose {
+    background-color: #AA6F68;
   }
-  .darkGrey {
-    background-color: #545454;
+  .Moss{
+    background-color: #767B74;
   }
-  .lightGrey {
-    background-color: #E3E3E3;
+  .Sky {
+    background-color: #8498A3;
   }
-  .white {
+  .Mustard {
+    background-color: #C98C39;
+  }
+  .Beige {
+    background-color: #D2BFA6;
+  }
+  .Black {
+    background-color: #1D1D1D;
+  }
+  .Grey {
+    background-color: #828282;
+  }
+  .Gray {
+    background-color: #E0E0E0;
+  }
+  .White {
     background-color: #FFFFFF;
   }
-  .lightBlue {
-    background-color: #12A0F6;
+
+  .pictures {
+  width: auto;
+  display: inline-block;   
   }
-  .red {
-    background-color: #F84848;
-  }
-  .orange {
-    background-color: #FC7705;
-  }
-  .lightBlue {
-    background-color: #13A0F6;
-  }
-  .lightGreen {
-    background-color: #8ABE48;
-  }
-  /* Typography CSS */
+  /* Typography CSS 
   .type_container {
      display: inline-block;
      margin: 20px;
@@ -95,9 +106,11 @@ body {
   .header-size h4 {
       font-size: 26px;
   }
+  */
   
   /* UI Elements */
-  .button {
+
+ /* .button {
      display: inline-block;
      padding: 15px;
      margin: 15px;
@@ -136,7 +149,9 @@ body {
   .infoActive {
     background-color: #4386BA;
   }
+
+  */
+
   .sectionHead {
     border-bottom: 8px solid #DDDDDD;
   }
-  
